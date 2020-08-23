@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<svg stroke-linecap="round" font-size="12" font-family="Segoe UI" width="736.865" height="813.64000000000033" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs />
+  <rect width="736.865" height="813.64000000000033" fill="#FFFFFF" />
+  <g transform="translate(20,20)">
+    <g id="Database">
+      <rect rx="5" ry="5" width="696.865" height="773.64000000000033" fill="#FFFFFF" stroke="#A5A6A9" stroke-width="1" />
+      <text x="332" y="17.950000000000003" fill="#000000">lca.db</text>
+      <rect x="5" y="27.96" width="686.865" height="740.68000000000029" fill="#FFFFFF" stroke="#A5A6A9" stroke-width="1" />
+      <g id="CharacterisationFactors-&gt;ElementaryFlows">
+        <path d="M 402.756845922962,611.72 L 393.866334374155,590.046667577971" fill="none" stroke="#A0A0A0" stroke-width="1" />
+        <path d="M 390.450692846423,581.72 L 390.545108953694,592.489915765627 C 392.632753992234,590.552688545043 395.099914756077,589.5406466109 397.946591245224,589.453789963198 z" fill="#A0A0A0" stroke="#A0A0A0" stroke-width="1" stroke-linejoin="round" />
+      </g>
+      <g id="CharacterisationFactors-&gt;Methods">
+        <path d="M 488.6613981991,611.72 L 529.444631915277,560.766447375851" fill="none" stroke="#A0A0A0" stroke-width="1" />
+        <path d="M 535.068601800901,553.74 L 525.696880872052,559.047621579557 C 528.403676748484,559.933266652055 530.48558708207,561.599628099647 531.942611872808,564.046705922334 z" fill="#A0A0A0" stroke="#A0A0A0" stroke-width="1" stroke-linejoin="round" />
+      </g>
+      <g id="ElementaryFlows-&gt;Compartments">
+        <path d="M 349.865,383.84 L 349.865,190.92" fill="none" stroke="#A0A0A0" stroke-width="1" />
+        <path d="M 349.865,181.92 L 345.865,191.92 C 348.531666666667,190.92 351.198333333333,190.92 353.865,191.92 z" fill="#A0A0A0" stroke="#A0A0A0" stroke-width="1" stroke-linejoin="round" />
+      </g>
+      <g id="ElementaryFlows-&gt;SubCompartments">
+        <path d="M 291.956145572786,383.84 L 278.943555478959,361.607378121744" fill="none" stroke="#A0A0A0" stroke-width="1" />
+        <path d="M 274.397366183092,353.84 L 275.996519568837,364.490948711212 C 277.792832794257,362.280887647057 280.094278163662,360.93386859643 282.900855677053,360.449891559329 z" fill="#A0A0A0" stroke="#A0A0A0" stroke-width="1" stroke-linejoin="round" />
+      </g>
+      <g id="ElementaryFlows-&gt;Units">
+        <path d="M 222.883333333333,412.782288955437 C 178.795981694762,387.482539893039 145.582447068387,364.639325689378 123.242729454208,344.252646344453" fill="none" stroke="#A0A0A0" stroke-width="1" />
+        <path d="M 116.713333333333,338.058537345033 L 121.215280579008,347.842834509222 C 122.325083676517,345.219964288287 124.1603752319,343.28532840062 126.721155245159,342.038926846222 z" fill="#A0A0A0" stroke="#A0A0A0" stroke-width="1" stroke-linejoin="round" />
+      </g>
+      <g id="ProcessExchanges-&gt;ElementaryFlows">
+        <path d="M 218.925430215108,611.72 L 242.977925921377,588.034808415354" fill="none" stroke="#A0A0A0" stroke-width="1" />
+        <path d="M 249.390662831416,581.72 L 239.458818080104,585.886348501487 C 242.042398748732,587.08477331757 243.913453094022,588.984843513138 245.071981115974,591.586559088188 z" fill="#A0A0A0" stroke="#A0A0A0" stroke-width="1" stroke-linejoin="round" />
+      </g>
+      <g id="ProcessExchanges-&gt;Processes">
+        <path d="M 146.865,611.72 L 146.865,562.74" fill="none" stroke="#A0A0A0" stroke-width="1" />
+        <path d="M 146.865,553.74 L 142.865,563.74 C 145.531666666667,562.74 148.198333333333,562.74 150.865,563.74 z" fill="#A0A0A0" stroke="#A0A0A0" stroke-width="1" stroke-linejoin="round" />
+      </g>
+      <g id="SubCompartments-&gt;Compartments">
+        <path d="M 281.156763610982,211.92 L 296.509652864714,189.360438286311" fill="none" stroke="#A0A0A0" stroke-width="1" />
+        <path d="M 301.573236389018,181.92 L 292.640171012542,187.936672085099 C 295.407365711187,188.610277764192 297.611940018242,190.11059880843 299.253893933707,192.437635217814 z" fill="#A0A0A0" stroke="#A0A0A0" stroke-width="1" stroke-linejoin="round" />
+      </g>
+      <g id="CharacterisationFactors">
+        <rect x="303.9616666666667" y="611.72000000000025" rx="5" ry="5" width="255.80666666666662" height="141.92000000000007" fill="#C0C0C0" stroke="#A5A6A9" stroke-width="1" />
+        <text x="369.9616666666667" y="629.6700000000003" fill="#000000">CharacterisationFactors</text>
+        <rect x="308.9616666666667" y="639.68000000000029" width="245.80666666666662" height="108.96000000000007" fill="#FFFFFF" stroke="#A5A6A9" stroke-width="1" />
+        <g id="CharacterisationFactors_ElementaryFlowId">
+          <rect x="426.22833333333335" y="707.68000000000029" rx="3" ry="3" width="113.53999999999996" height="25.960000000000036" fill="#8080FF" stroke="#A5A6A9" stroke-width="1" />
+          <text x="436.22833333333335" y="725.63000000000034" fill="#000000">ElementaryFlowId</text>
+        </g>
+        <g id="CharacterisationFactors_Factor">
+          <rect x="403.9616666666667" y="651.72000000000025" rx="3" ry="3" width="52.369999999999891" height="25.960000000000036" fill="#C0A000" stroke="#A5A6A9" stroke-width="1" />
+          <text x="413.9616666666667" y="669.6700000000003" fill="#FFFFFF">Factor</text>
+        </g>
+        <g id="CharacterisationFactors_Id">
+          <rect x="323.9616666666667" y="651.72000000000025" rx="3" ry="3" width="50" height="25.960000000000036" fill="#008000" stroke="#A5A6A9" stroke-width="1" />
+          <text x="342.9616666666667" y="669.6700000000003" fill="#FFFFFF">Id</text>
+        </g>
+        <g id="CharacterisationFactors_MethodId">
+          <rect x="323.9616666666667" y="707.68000000000029" rx="3" ry="3" width="72.266666666666652" height="25.960000000000036" fill="#8080FF" stroke="#A5A6A9" stroke-width="1" />
+          <text x="333.9616666666667" y="725.63000000000034" fill="#000000">MethodId</text>
+        </g>
+      </g>
+      <g id="Compartments">
+        <rect x="290.485" y="40" rx="5" ry="5" width="118.75999999999999" height="141.92000000000007" fill="#C0C0C0" stroke="#A5A6A9" stroke-width="1" />
+        <text x="309.485" y="57.95" fill="#000000">Compartments</text>
+        <rect x="295.485" y="67.960000000000008" width="108.75999999999999" height="108.96000000000007" fill="#FFFFFF" stroke="#A5A6A9" stroke-width="1" />
+        <g id="Compartments_Id">
+          <rect x="324.01666666666665" y="80" rx="3" ry="3" width="50" height="25.960000000000036" fill="#008000" stroke="#A5A6A9" stroke-width="1" />
+          <text x="343.01666666666665" y="97.95" fill="#FFFFFF">Id</text>
+        </g>
+        <g id="Compartments_Name">
+          <rect x="324.01666666666665" y="135.96000000000004" rx="3" ry="3" width="51.696666666666715" height="25.960000000000036" fill="#C0A000" stroke="#A5A6A9" stroke-width="1" />
+          <text x="334.01666666666665" y="153.91000000000003" fill="#FFFFFF">Name</text>
+        </g>
+      </g>
+      <g id="ElementaryFlows">
+        <rect x="222.88333333333333" y="383.84000000000015" rx="5" ry="5" width="253.96333333333337" height="197.88000000000011" fill="#C0C0C0" stroke="#A5A6A9" stroke-width="1" />
+        <text x="304.88333333333333" y="401.79000000000013" fill="#000000">ElementaryFlows</text>
+        <rect x="227.88333333333333" y="411.80000000000013" width="243.96333333333337" height="164.9200000000001" fill="#FFFFFF" stroke="#A5A6A9" stroke-width="1" />
+        <g id="ElementaryFlows_CompartmentId">
+          <rect x="242.88333333333333" y="479.80000000000018" rx="3" ry="3" width="103.92666666666696" height="25.960000000000036" fill="#8080FF" stroke="#A5A6A9" stroke-width="1" />
+          <text x="252.88333333333333" y="497.75000000000017" fill="#000000">CompartmentId</text>
+        </g>
+        <g id="ElementaryFlows_Id">
+          <rect x="242.88333333333333" y="423.84000000000015" rx="3" ry="3" width="50" height="25.960000000000036" fill="#008000" stroke="#A5A6A9" stroke-width="1" />
+          <text x="261.88333333333333" y="441.79000000000013" fill="#FFFFFF">Id</text>
+        </g>
+        <g id="ElementaryFlows_Name">
+          <rect x="322.88333333333333" y="423.84000000000015" rx="3" ry="3" width="51.696666666666715" height="25.960000000000036" fill="#C0A000" stroke="#A5A6A9" stroke-width="1" />
+          <text x="332.88333333333333" y="441.79000000000013" fill="#FFFFFF">Name</text>
+        </g>
+        <g id="ElementaryFlows_SubCompartmentId">
+          <rect x="242.88333333333333" y="535.76000000000022" rx="3" ry="3" width="124.14333333333298" height="25.960000000000036" fill="#8080FF" stroke="#A5A6A9" stroke-width="1" />
+          <text x="252.88333333333333" y="553.71000000000026" fill="#000000">SubCompartmentId</text>
+        </g>
+        <g id="ElementaryFlows_UnitId">
+          <rect x="404.58000000000004" y="423.84000000000015" rx="3" ry="3" width="52.266666666666652" height="25.960000000000036" fill="#8080FF" stroke="#A5A6A9" stroke-width="1" />
+          <text x="414.58000000000004" y="441.79000000000013" fill="#000000">UnitId</text>
+        </g>
+      </g>
+      <g id="Methods">
+        <rect x="506.865" y="411.82000000000016" rx="5" ry="5" width="170" height="141.92000000000007" fill="#C0C0C0" stroke="#A5A6A9" stroke-width="1" />
+        <text x="567.865" y="429.77000000000015" fill="#000000">Methods</text>
+        <rect x="511.865" y="439.78000000000014" width="160" height="108.96000000000007" fill="#FFFFFF" stroke="#A5A6A9" stroke-width="1" />
+        <g id="Methods_Id">
+          <rect x="526.865" y="451.82000000000016" rx="3" ry="3" width="50" height="25.960000000000036" fill="#008000" stroke="#A5A6A9" stroke-width="1" />
+          <text x="545.865" y="469.77000000000015" fill="#FFFFFF">Id</text>
+        </g>
+        <g id="Methods_Name">
+          <rect x="526.865" y="507.7800000000002" rx="3" ry="3" width="51.696666666666715" height="25.960000000000036" fill="#C0A000" stroke="#A5A6A9" stroke-width="1" />
+          <text x="536.865" y="525.73000000000025" fill="#FFFFFF">Name</text>
+        </g>
+        <g id="Methods_Unit">
+          <rect x="606.865" y="451.82000000000016" rx="3" ry="3" width="50" height="25.960000000000036" fill="#C0A000" stroke="#A5A6A9" stroke-width="1" />
+          <text x="619.865" y="469.77000000000015" fill="#FFFFFF">Unit</text>
+        </g>
+      </g>
+      <g id="ProcessExchanges">
+        <rect x="20" y="611.72000000000025" rx="5" ry="5" width="253.73000000000002" height="141.92000000000007" fill="#C0C0C0" stroke="#A5A6A9" stroke-width="1" />
+        <text x="99" y="629.6700000000003" fill="#000000">ProcessExchanges</text>
+        <rect x="25" y="639.68000000000029" width="243.73000000000002" height="108.96000000000007" fill="#FFFFFF" stroke="#A5A6A9" stroke-width="1" />
+        <g id="ProcessExchanges_ElementaryFlowId">
+          <rect x="140.19000000000006" y="707.68000000000029" rx="3" ry="3" width="113.53999999999996" height="25.960000000000036" fill="#8080FF" stroke="#A5A6A9" stroke-width="1" />
+          <text x="150.19000000000006" y="725.63000000000034" fill="#000000">ElementaryFlowId</text>
+        </g>
+        <g id="ProcessExchanges_Id">
+          <rect x="40" y="651.72000000000025" rx="3" ry="3" width="50" height="25.960000000000036" fill="#008000" stroke="#A5A6A9" stroke-width="1" />
+          <text x="59" y="669.6700000000003" fill="#FFFFFF">Id</text>
+        </g>
+        <g id="ProcessExchanges_ProcessId">
+          <rect x="40" y="707.68000000000029" rx="3" ry="3" width="70.190000000000055" height="25.960000000000036" fill="#8080FF" stroke="#A5A6A9" stroke-width="1" />
+          <text x="50" y="725.63000000000034" fill="#000000">ProcessId</text>
+        </g>
+        <g id="ProcessExchanges_Value">
+          <rect x="120" y="651.72000000000025" rx="3" ry="3" width="50" height="25.960000000000036" fill="#C0A000" stroke="#A5A6A9" stroke-width="1" />
+          <text x="130" y="669.6700000000003" fill="#FFFFFF">Value</text>
+        </g>
+      </g>
+      <g id="Processes">
+        <rect x="101.01666666666665" y="411.82000000000016" rx="5" ry="5" width="91.696666666666715" height="141.92000000000007" fill="#C0C0C0" stroke="#A5A6A9" stroke-width="1" />
+        <text x="121.01666666666665" y="429.77000000000015" fill="#000000">Processes</text>
+        <rect x="106.01666666666665" y="439.78000000000014" width="81.696666666666715" height="108.96000000000007" fill="#FFFFFF" stroke="#A5A6A9" stroke-width="1" />
+        <g id="Processes_Id">
+          <rect x="121.01666666666665" y="451.82000000000016" rx="3" ry="3" width="50" height="25.960000000000036" fill="#008000" stroke="#A5A6A9" stroke-width="1" />
+          <text x="140.01666666666665" y="469.77000000000015" fill="#FFFFFF">Id</text>
+        </g>
+        <g id="Processes_Name">
+          <rect x="121.01666666666665" y="507.7800000000002" rx="3" ry="3" width="51.696666666666715" height="25.960000000000036" fill="#C0A000" stroke="#A5A6A9" stroke-width="1" />
+          <text x="131.01666666666665" y="525.73000000000025" fill="#FFFFFF">Name</text>
+        </g>
+      </g>
+      <g id="SubCompartments">
+        <rect x="147.01666666666665" y="211.92000000000007" rx="5" ry="5" width="171.69666666666672" height="141.92000000000007" fill="#C0C0C0" stroke="#A5A6A9" stroke-width="1" />
+        <text x="183.01666666666665" y="229.87000000000006" fill="#000000">SubCompartments</text>
+        <rect x="152.01666666666665" y="239.88000000000008" width="161.69666666666672" height="108.96000000000007" fill="#FFFFFF" stroke="#A5A6A9" stroke-width="1" />
+        <g id="SubCompartments_CompartmentId">
+          <rect x="167.01666666666665" y="307.88000000000011" rx="3" ry="3" width="103.92666666666696" height="25.960000000000036" fill="#8080FF" stroke="#A5A6A9" stroke-width="1" />
+          <text x="177.01666666666665" y="325.8300000000001" fill="#000000">CompartmentId</text>
+        </g>
+        <g id="SubCompartments_Id">
+          <rect x="167.01666666666665" y="251.92000000000007" rx="3" ry="3" width="50" height="25.960000000000036" fill="#008000" stroke="#A5A6A9" stroke-width="1" />
+          <text x="186.01666666666665" y="269.87000000000006" fill="#FFFFFF">Id</text>
+        </g>
+        <g id="SubCompartments_Name">
+          <rect x="247.01666666666665" y="251.92000000000007" rx="3" ry="3" width="51.696666666666715" height="25.960000000000036" fill="#C0A000" stroke="#A5A6A9" stroke-width="1" />
+          <text x="257.01666666666665" y="269.87000000000006" fill="#FFFFFF">Name</text>
+        </g>
+      </g>
+      <g id="Units">
+        <rect x="25.016666666666652" y="211.92000000000007" rx="5" ry="5" width="91.696666666666715" height="141.92000000000007" fill="#C0C0C0" stroke="#A5A6A9" stroke-width="1" />
+        <text x="57.016666666666652" y="229.87000000000006" fill="#000000">Units</text>
+        <rect x="30.016666666666652" y="239.88000000000008" width="81.696666666666715" height="108.96000000000007" fill="#FFFFFF" stroke="#A5A6A9" stroke-width="1" />
+        <g id="Units_Id">
+          <rect x="45.016666666666652" y="251.92000000000007" rx="3" ry="3" width="50" height="25.960000000000036" fill="#008000" stroke="#A5A6A9" stroke-width="1" />
+          <text x="64.016666666666652" y="269.87000000000006" fill="#FFFFFF">Id</text>
+        </g>
+        <g id="Units_Name">
+          <rect x="45.016666666666652" y="307.88000000000011" rx="3" ry="3" width="51.696666666666715" height="25.960000000000036" fill="#C0A000" stroke="#A5A6A9" stroke-width="1" />
+          <text x="55.016666666666652" y="325.8300000000001" fill="#FFFFFF">Name</text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,14 @@
+version: '3'
+services:
+  backend:
+    build: ./backend/lcaworld
+    ports:
+      - 80:80
+    volumes:
+      - ./dbtest:/db
+  analytics-api:
+    build: ./analytics/api
+    ports: 
+      - 5000:5000
+    volumes:
+      - ./dbtest:/db

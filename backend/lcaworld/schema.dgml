@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph GraphDirection="BottomToTop" Layout="Sugiyama" ZoomLevel="-1" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="CharacterisationFactors" Category="Table" Bounds="303.961666666667,611.72,255.806666666667,141.92" Group="Expanded" Label="CharacterisationFactors" />
+    <Node Id="CharacterisationFactors_ElementaryFlowId" Category="Field Foreign" Bounds="426.228333333333,707.68,113.54,25.96" Description="bigint" Label="ElementaryFlowId" />
+    <Node Id="CharacterisationFactors_Factor" Category="Field" Bounds="403.961666666667,651.72,52.3699999999999,25.96" Description="real" Label="Factor" />
+    <Node Id="CharacterisationFactors_Id" Category="Field Primary" Bounds="323.961666666667,651.72,50,25.96" Description="bigint" Label="Id" />
+    <Node Id="CharacterisationFactors_MethodId" Category="Field Foreign" Bounds="323.961666666667,707.68,72.2666666666667,25.96" Description="bigint" Label="MethodId" />
+    <Node Id="Compartments" Category="Table" Bounds="290.485,40,118.76,141.92" Group="Expanded" Label="Compartments" />
+    <Node Id="Compartments_Id" Category="Field Primary" Bounds="324.016666666667,80,50,25.96" Description="bigint" Label="Id" />
+    <Node Id="Compartments_Name" Category="Field" Bounds="324.016666666667,135.96,51.6966666666667,25.96" Description="text" Label="Name" />
+    <Node Id="Database" Category="Database" Bounds="0,0,696.865,773.64" Group="Expanded" Label="lca.db" />
+    <Node Id="ElementaryFlows" Category="Table" Bounds="222.883333333333,383.84,253.963333333333,197.88" Group="Expanded" Label="ElementaryFlows" />
+    <Node Id="ElementaryFlows_CompartmentId" Category="Field Foreign" Bounds="242.883333333333,479.8,103.926666666667,25.96" Description="bigint" Label="CompartmentId" />
+    <Node Id="ElementaryFlows_Id" Category="Field Primary" Bounds="242.883333333333,423.84,50,25.96" Description="bigint" Label="Id" />
+    <Node Id="ElementaryFlows_Name" Category="Field" Bounds="322.883333333333,423.84,51.6966666666667,25.96" Description="text" Label="Name" />
+    <Node Id="ElementaryFlows_SubCompartmentId" Category="Field Foreign" Bounds="242.883333333333,535.76,124.143333333333,25.96" Description="bigint" Label="SubCompartmentId" />
+    <Node Id="ElementaryFlows_UnitId" Category="Field Foreign" Bounds="404.58,423.84,52.2666666666667,25.96" Description="bigint" Label="UnitId" />
+    <Node Id="Methods" Category="Table" Bounds="506.865,411.82,170,141.92" Group="Expanded" Label="Methods" />
+    <Node Id="Methods_Id" Category="Field Primary" Bounds="526.865,451.82,50,25.96" Description="bigint" Label="Id" />
+    <Node Id="Methods_Name" Category="Field" Bounds="526.865,507.78,51.6966666666667,25.96" Description="text" Label="Name" />
+    <Node Id="Methods_Unit" Category="Field" Bounds="606.865,451.82,50,25.96" Description="text" Label="Unit" />
+    <Node Id="ProcessExchanges" Category="Table" Bounds="20,611.72,253.73,141.92" Group="Expanded" Label="ProcessExchanges" />
+    <Node Id="ProcessExchanges_ElementaryFlowId" Category="Field Foreign" Bounds="140.19,707.68,113.54,25.96" Description="bigint" Label="ElementaryFlowId" />
+    <Node Id="ProcessExchanges_Id" Category="Field Primary" Bounds="40,651.72,50,25.96" Description="bigint" Label="Id" />
+    <Node Id="ProcessExchanges_ProcessId" Category="Field Foreign" Bounds="40,707.68,70.1900000000001,25.96" Description="bigint" Label="ProcessId" />
+    <Node Id="ProcessExchanges_Value" Category="Field" Bounds="120,651.72,50,25.96" Description="real" Label="Value" />
+    <Node Id="Processes" Category="Table" Bounds="101.016666666667,411.82,91.6966666666667,141.92" Group="Expanded" Label="Processes" />
+    <Node Id="Processes_Id" Category="Field Primary" Bounds="121.016666666667,451.82,50,25.96" Description="bigint" Label="Id" />
+    <Node Id="Processes_Name" Category="Field" Bounds="121.016666666667,507.78,51.6966666666667,25.96" Description="text" Label="Name" />
+    <Node Id="SubCompartments" Category="Table" Bounds="147.016666666667,211.92,171.696666666667,141.92" Group="Expanded" Label="SubCompartments" />
+    <Node Id="SubCompartments_CompartmentId" Category="Field Foreign" Bounds="167.016666666667,307.88,103.926666666667,25.96" Description="bigint" Label="CompartmentId" />
+    <Node Id="SubCompartments_Id" Category="Field Primary" Bounds="167.016666666667,251.92,50,25.96" Description="bigint" Label="Id" />
+    <Node Id="SubCompartments_Name" Category="Field" Bounds="247.016666666667,251.92,51.6966666666667,25.96" Description="text" Label="Name" />
+    <Node Id="Units" Category="Table" Bounds="25.0166666666667,211.92,91.6966666666667,141.92" Group="Expanded" Label="Units" />
+    <Node Id="Units_Id" Category="Field Primary" Bounds="45.0166666666667,251.92,50,25.96" Description="bigint" Label="Id" />
+    <Node Id="Units_Name" Category="Field" Bounds="45.0166666666667,307.88,51.6966666666667,25.96" Description="text" Label="Name" />
+  </Nodes>
+  <Links>
+    <Link Source="CharacterisationFactors" Target="CharacterisationFactors_ElementaryFlowId" Category="Contains" />
+    <Link Source="CharacterisationFactors" Target="CharacterisationFactors_Factor" Category="Contains" />
+    <Link Source="CharacterisationFactors" Target="CharacterisationFactors_Id" Category="Contains" />
+    <Link Source="CharacterisationFactors" Target="CharacterisationFactors_MethodId" Category="Contains" />
+    <Link Source="CharacterisationFactors_ElementaryFlowId" Target="ElementaryFlows_Id" Category="Foreign Key" Label="FK_CharacterisationFactors_1_0" />
+    <Link Source="CharacterisationFactors_MethodId" Target="Methods_Id" Category="Foreign Key" Label="FK_CharacterisationFactors_0_0" />
+    <Link Source="Compartments" Target="Compartments_Id" Category="Contains" />
+    <Link Source="Compartments" Target="Compartments_Name" Category="Contains" />
+    <Link Source="Database" Target="CharacterisationFactors" Category="Contains" />
+    <Link Source="Database" Target="Compartments" Category="Contains" />
+    <Link Source="Database" Target="ElementaryFlows" Category="Contains" />
+    <Link Source="Database" Target="Methods" Category="Contains" />
+    <Link Source="Database" Target="ProcessExchanges" Category="Contains" />
+    <Link Source="Database" Target="Processes" Category="Contains" />
+    <Link Source="Database" Target="SubCompartments" Category="Contains" />
+    <Link Source="Database" Target="Units" Category="Contains" />
+    <Link Source="ElementaryFlows" Target="ElementaryFlows_CompartmentId" Category="Contains" />
+    <Link Source="ElementaryFlows" Target="ElementaryFlows_Id" Category="Contains" />
+    <Link Source="ElementaryFlows" Target="ElementaryFlows_Name" Category="Contains" />
+    <Link Source="ElementaryFlows" Target="ElementaryFlows_SubCompartmentId" Category="Contains" />
+    <Link Source="ElementaryFlows" Target="ElementaryFlows_UnitId" Category="Contains" />
+    <Link Source="ElementaryFlows_CompartmentId" Target="Compartments_Id" Category="Foreign Key" Label="FK_ElementaryFlows_2_0" />
+    <Link Source="ElementaryFlows_SubCompartmentId" Target="SubCompartments_Id" Category="Foreign Key" Label="FK_ElementaryFlows_1_0" />
+    <Link Source="ElementaryFlows_UnitId" Target="Units_Id" Category="Foreign Key" Bounds="-393.951135961696,-222.944038805598,168.931614517797,195.081912233255" Label="FK_ElementaryFlows_0_0" />
+    <Link Source="Methods" Target="Methods_Id" Category="Contains" />
+    <Link Source="Methods" Target="Methods_Name" Category="Contains" />
+    <Link Source="Methods" Target="Methods_Unit" Category="Contains" />
+    <Link Source="ProcessExchanges" Target="ProcessExchanges_ElementaryFlowId" Category="Contains" />
+    <Link Source="ProcessExchanges" Target="ProcessExchanges_Id" Category="Contains" />
+    <Link Source="ProcessExchanges" Target="ProcessExchanges_ProcessId" Category="Contains" />
+    <Link Source="ProcessExchanges" Target="ProcessExchanges_Value" Category="Contains" />
+    <Link Source="ProcessExchanges_ElementaryFlowId" Target="ElementaryFlows_Id" Category="Foreign Key" Label="FK_ProcessExchanges_1_0" />
+    <Link Source="ProcessExchanges_ProcessId" Target="Processes_Id" Category="Foreign Key" Label="FK_ProcessExchanges_0_0" />
+    <Link Source="Processes" Target="Processes_Id" Category="Contains" />
+    <Link Source="Processes" Target="Processes_Name" Category="Contains" />
+    <Link Source="SubCompartments" Target="SubCompartments_CompartmentId" Category="Contains" />
+    <Link Source="SubCompartments" Target="SubCompartments_Id" Category="Contains" />
+    <Link Source="SubCompartments" Target="SubCompartments_Name" Category="Contains" />
+    <Link Source="SubCompartments_CompartmentId" Target="Compartments_Id" Category="Foreign Key" Label="FK_SubCompartments_0_0" />
+    <Link Source="Units" Target="Units_Id" Category="Contains" />
+    <Link Source="Units" Target="Units_Name" Category="Contains" />
+  </Links>
+  <Categories>
+    <Category Id="Contains" Label="Contains" Description="Whether the source of the link contains the target object" CanBeDataDriven="False" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Contained By" IsContainment="True" OutgoingActionLabel="Contains" />
+    <Category Id="Database" />
+    <Category Id="Field" />
+    <Category Id="Field Foreign" />
+    <Category Id="Field Primary" />
+    <Category Id="Foreign Key" />
+    <Category Id="Table" />
+  </Categories>
+  <Properties>
+    <Property Id="Bounds" DataType="System.Windows.Rect" />
+    <Property Id="CanBeDataDriven" Label="CanBeDataDriven" Description="CanBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CanLinkedNodesBeDataDriven" Label="CanLinkedNodesBeDataDriven" Description="CanLinkedNodesBeDataDriven" DataType="System.Boolean" />
+    <Property Id="Description" Label="Description" Description="Description" DataType="System.String" />
+    <Property Id="Expression" DataType="System.String" />
+    <Property Id="GraphDirection" DataType="Microsoft.VisualStudio.Diagrams.Layout.LayoutOrientation" />
+    <Property Id="Group" Label="Group" Description="Display the node as a group" DataType="Microsoft.VisualStudio.GraphModel.GraphGroupStyle" />
+    <Property Id="GroupLabel" DataType="System.String" />
+    <Property Id="IncomingActionLabel" Label="IncomingActionLabel" Description="IncomingActionLabel" DataType="System.String" />
+    <Property Id="IsContainment" DataType="System.Boolean" />
+    <Property Id="IsEnabled" DataType="System.Boolean" />
+    <Property Id="Label" Label="Label" Description="Displayable label of an Annotatable object" DataType="System.String" />
+    <Property Id="Layout" DataType="System.String" />
+    <Property Id="OutgoingActionLabel" Label="OutgoingActionLabel" Description="OutgoingActionLabel" DataType="System.String" />
+    <Property Id="TargetType" DataType="System.Type" />
+    <Property Id="Value" DataType="System.String" />
+    <Property Id="ValueLabel" DataType="System.String" />
+    <Property Id="ZoomLevel" DataType="System.String" />
+  </Properties>
+  <Styles>
+    <Style TargetType="Node" GroupLabel="Table" ValueLabel="True">
+      <Condition Expression="HasCategory('Table')" />
+      <Setter Property="Background" Value="#FFC0C0C0" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Schema" ValueLabel="True">
+      <Condition Expression="HasCategory('Schema')" />
+      <Setter Property="Background" Value="#FF7F9169" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Field Primary" ValueLabel="True">
+      <Condition Expression="HasCategory('Field Primary')" />
+      <Setter Property="Background" Value="#FF008000" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Field Optional" ValueLabel="True">
+      <Condition Expression="HasCategory('Field Optional')" />
+      <Setter Property="Background" Value="#FF808040" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Field Foreign" ValueLabel="True">
+      <Condition Expression="HasCategory('Field Foreign')" />
+      <Setter Property="Background" Value="#FF8080FF" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Field" ValueLabel="True">
+      <Condition Expression="HasCategory('Field')" />
+      <Setter Property="Background" Value="#FFC0A000" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Database" ValueLabel="True">
+      <Condition Expression="HasCategory('Database')" />
+      <Setter Property="Background" Value="#FFFFFFFF" />
+    </Style>
+  </Styles>
+</DirectedGraph>
